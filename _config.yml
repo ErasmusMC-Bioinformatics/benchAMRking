@@ -1,3 +1,4 @@
 title: BenchAMRking
 description: A collection of AMR-detection pipelines.
+show_downloads: true
 theme: jekyll-theme-cayman
