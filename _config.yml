@@ -1,4 +1,3 @@
 title: BenchAMRking
-description: A collection of AMR-detection pipelines.
-show_downloads: true
-theme: jekyll-theme-cayman
+description: Species-specific pipelines for gold standard benchmarking of bacterial next generation sequencing (NGS) contigs to phenotype data.
+show_buttons: true
