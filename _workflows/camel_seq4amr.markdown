@@ -4,6 +4,6 @@ species_of_interest: Escheria coli
 doi: 
 workflowhub: https://workflowhub.eu/projects/110
 dataset: 
-description: Camel is our in-house system to run pipelines. In this repository you can find the code to run the gene detection workflow.
+description: With this galaxy pipeline you can use <em>Escherichia coli</em> next generation sequencing results to predict bacterial AMR phenotypes and compare the results against gold standard <em>E. coli</em> phenotypic isolates.</br></br>This pipeline is based on the work of <em>Sciensano, Belgium</em>.
 ---
 
