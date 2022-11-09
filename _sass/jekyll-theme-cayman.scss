@@ -1,7 +1,7 @@
 @import "normalize";
 @import "rouge-github";
-@import "bootstrap/bootstrap";
 @import "variables";
+@import "bootstrap/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 @mixin large {
@@ -62,7 +62,7 @@ a {
   }
 }
 
-.btn {
+.btn-header {
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
@@ -80,7 +80,7 @@ a {
     border-color: rgba(255, 255, 255, 0.3);
   }
 
-  + .btn {
+  + .btn-header {
     margin-left: 1rem;
   }
 
@@ -99,7 +99,7 @@ a {
     padding: 0.75rem;
     font-size: 0.9rem;
 
-    + .btn {
+    + .btn-header {
       margin-top: 1rem;
       margin-left: 0;
     }
@@ -168,22 +168,22 @@ a {
   }
 
   @include large {
-    max-width: 64rem;
+    max-width: 74rem;
     padding: 2rem 6rem;
     margin: 0 auto;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   @include medium {
     padding: 2rem 4rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   @include small {
     padding: 2rem 1rem;
     font-size: 1rem;
   }
-  
+
   kbd {
     background-color: #fafbfc;
     border: 1px solid #c6cbd1;
