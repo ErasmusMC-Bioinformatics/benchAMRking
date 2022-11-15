@@ -23,14 +23,8 @@
                 {{ workflow.description }}
               </p>
               <small class="mt-auto text-center">
-                {% if workflow.dataset %}
-                  <a href="{{ workflow.dataset }}" class="w-100 btn btn-outline-success mt-auto mb-2">Get dataset</a>
-                {% endif %}
-                {% if workflow.galaxy %}
-                  <a href="{{ workflow.galaxy }}" class="w-100 btn btn-outline-success mt-auto mb-2">Run on galaxy</a>
-                {% else %}
-                  <button class="w-100 btn btn-secondary mt-auto mb-2 disabled">Run on galaxy</button>
-                {% endif %}
+                <a href="{{ workflow.dataset }}" class="w-100 btn btn-sm mt-auto mb-2 {% if workflow.dataset %}btn-outline-success{% else %}btn-secondary disabled{% endif %}">Get dataset</a>
+                <a href="{{ workflow.galaxy }}" class="w-100 btn btn-sm mt-auto mb-2 {% if workflow.galaxy %}btn-outline-success{% else %}btn-secondary disabled{% endif %}">Run on galaxy</a>
                 <button type="button" class="w-100 btn btn-sm mt-auto mb-2 btn-outline-success" data-bs-toggle="modal" data-bs-target="#detailModal">More details</button>
               </small>
             </div>
