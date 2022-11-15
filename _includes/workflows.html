@@ -31,7 +31,24 @@
                 {% else %}
                   <button class="w-100 btn btn-secondary mt-auto mb-2 disabled">Run on galaxy</button>
                 {% endif %}
+                <button type="button" class="w-100 btn btn-sm mt-auto mb-2 btn-outline-success" data-bs-toggle="modal" data-bs-target="#detailModal">More details</button>
               </small>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade mt-auto" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-fullscreen-md-down">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modaltitle fs-3" id="detailModalLabel">{{ workflow.species_of_interest }}</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                {{ workflow.description }}
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
             </div>
           </div>
         </div>
