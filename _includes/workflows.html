@@ -38,7 +38,14 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                {{ workflow.description }}
+                <div class="container">
+                  <div class="row">
+                      {{ workflow.content }}
+                  </div>
+                  <div class="row">
+                    <code>{{workflow.citation}}</code>
+                  </div>
+                </div>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
