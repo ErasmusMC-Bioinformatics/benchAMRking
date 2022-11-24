@@ -24,6 +24,9 @@
               </p>
               <small class="mt-auto text-center">
                 <a href="{{ workflow.dataset }}" class="w-100 btn btn-sm mt-auto mb-2 {% if workflow.dataset %}btn-outline-success{% else %}btn-secondary disabled{% endif %}">Get dataset</a>
+                {% if workflow.workflowhub %}
+                <a href="{{ workflow.workflowhub}}" class="w-100 btn btn-sm mt-auto mb-2 {% if workflow.galaxy %}btn-outline-success{% else %}btn-secondary disabled{% endif %}">View on WorkflowHub</a>
+                {% endif %}
                 <a href="{{ workflow.galaxy }}" class="w-100 btn btn-sm mt-auto mb-2 {% if workflow.galaxy %}btn-outline-success{% else %}btn-secondary disabled{% endif %}">Run on galaxy</a>
                 <button type="button" class="w-100 btn btn-sm mt-auto mb-2 btn-outline-success" data-bs-toggle="modal" data-bs-target="#detailModal{{ workflow.title }}">More details</button>
               </small>
