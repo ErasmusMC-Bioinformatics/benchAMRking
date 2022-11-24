@@ -4,7 +4,6 @@ species_of_interest: Salmonella enterica
 species_subcategory: Human health
 doi: 10.3390/microorganisms10020292
 galaxy: https://usegalaxy.eu/u/dennisd/w/pe---spades-shovill---staramr---hamronize
-workflowhub: https://workflowhub.eu/workflows/406
 dataset:
 description: >
     Correlation between Phenotypic and In Silico Detection of Antimicrobial Resistance in <em>Salmonella enterica</em> in Canada Using Staramr.
