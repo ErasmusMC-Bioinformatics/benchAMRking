@@ -3,7 +3,7 @@ title: Catherine
 species_of_interest: Salmonella enterica
 species_subcategory: Food
 doi: 10.3389/fmicb.2020.00549
-galaxy: https://usegalaxy.eu/u/dennisd/w/pe---spades-shovill---staramr---hamronize
+galaxy: https://usegalaxy.eu/u/dennisd/w/amr-detection-cfia
 workflowhub:  https://workflowhub.eu/workflows/407
 dataset: https://usegalaxy.eu/u/dennisd/h/111-isolates
 description: >
