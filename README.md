@@ -22,3 +22,6 @@ Workflow: <https://bioinf-galactus.erasmusmc.nl/u/dennisd/w/abritamr>
 Dataset: <https://bioinf-galactus.erasmusmc.nl/libraries/folders/F38371f1a2a79cb4e/page/1>  
 
 ## [10.1038/s41467-022-35713-4](https://doi.org/10.1038/s41467-022-35713-4)
+
+Tool url: <https://bioinf-galactus.erasmusmc.nl/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/abritamr/abritamr/1.0.14+galaxy0>  
+Dataset: <https://bioinf-galactus.erasmusmc.nl/libraries/folders/F38371f1a2a79cb4e/page/1>  
