@@ -10,7 +10,7 @@ Dataset:
 Workflow: <https://workflowhub.eu/workflows/407>  
 
 ### Testing
-Workflow: <https://bioinf-galactus.erasmusmc.nl/u/dennisd/w/amr---seqsero2sistr>  
+Workflow: <https://bioinf-galactus.erasmusmc.nl/u/dennisd/w/copy-of-amr---seqsero2sistr>  
 Dataset: <https://bioinf-galactus.erasmusmc.nl/libraries/folders/F38371f1a2a79cb4e/page/1>  
 
 
