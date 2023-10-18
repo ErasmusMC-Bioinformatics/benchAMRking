@@ -38,11 +38,11 @@
             </div>
           </div>
         </div>
-        <div class="modal fade mt-auto" id="detailModal{{ workflow.title }}" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+        <div class="modal fade mt-auto" id="detailModal{{ workflow.title }}" tabindex="-1" aria-labelledby="detailModalLabel{{ workflow.title }}" aria-hidden="true">
           <div class="modal-dialog modal-lg modal-fullscreen-md-down">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modaltitle fs-3" id="detailModalLabel">{{ workflow.species_of_interest }}</h1>
+                <h1 class="modaltitle fs-3" id="detailModalLabel{{ workflow.title }}">{{ workflow.species_of_interest }}</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
