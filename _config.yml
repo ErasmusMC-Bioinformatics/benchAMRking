@@ -1,6 +1,6 @@
 title: BenchAMRking
 trademark: BenchAMRking<sup>&copy;</sup>
-description: Species-specific pipelines for gold standard benchmarking of bacterial next generation sequencing (NGS) contigs to phenotype data.
+description: A simple user friendly, scalable, secure Galaxy web application for benchmarking antimicrobial resistance gene detection.
 show_buttons: false
 
 collections:
