@@ -1,7 +1,7 @@
 ---
 title: Camel
-species_of_interest: Escherichia coli
-species_subcategory:
+species_of_interest: WF2 AMR
+species_subcategory: Escherichia coli
 doi: 10.1099/mgen.0.000531
 galaxy:
 workflowhub: https://workflowhub.eu/projects/110
