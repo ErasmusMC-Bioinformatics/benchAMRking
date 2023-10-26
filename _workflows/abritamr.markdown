@@ -1,7 +1,7 @@
 ---
 title: AbritAMR
-species_of_interest: Multi Species
-species_subcategory:
+species_of_interest: WF1: ISO AMR
+species_subcategory: Multi Species
 doi: 10.5281/zenodo.7370627
 galaxy:
 workflowhub: https://workflowhub.eu/projects/110
