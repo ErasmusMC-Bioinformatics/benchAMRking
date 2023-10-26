@@ -1,7 +1,7 @@
 ---
 title: Catherine
-species_of_interest: Salmonella enterica
-species_subcategory: Food
+species_of_interest: WF3 AMR
+species_subcategory: Salmonella species
 doi: 10.3389/fmicb.2020.00549
 galaxy: https://usegalaxy.eu/u/dennisd/w/amr-detection-cfia
 workflowhub:  https://workflowhub.eu/workflows/407
