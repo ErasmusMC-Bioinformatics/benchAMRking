@@ -16,9 +16,9 @@
       {% endif %}
           <div class="card h-100">
             <div class="card-body d-flex flex-column">
-              <h3 class="card-title m-0 fst-italic">{{ workflow.species_of_interest }}</h3>
+              <h3 class="card-title m-0">{{ workflow.species_of_interest }}</h3>
               {% if workflow.species_subcategory %}
-              <h5 class="card-subtitle text-muted m-0">{{ workflow.species_subcategory }}</h5>
+              <h5 class="card-subtitle text-muted m-0 fst-italic">{{ workflow.species_subcategory }}</h5>
               {% endif %}
               {% if workflow.doi %}
                 <small>Doi: <a class="card-link mt-auto" href="https://doi.org/{{ workflow.doi }}">{{ workflow.doi }}</a></small>
