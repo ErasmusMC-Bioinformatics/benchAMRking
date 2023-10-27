@@ -1,6 +1,6 @@
 ---
 title: AbritAMR
-species_of_interest: WF1 ISO AMR
+species_of_interest: WF1 ISO abritAMR
 species_subcategory: Multi Species
 doi: 10.5281/zenodo.7370627
 galaxy:

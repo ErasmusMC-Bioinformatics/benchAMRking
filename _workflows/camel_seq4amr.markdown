@@ -1,6 +1,6 @@
 ---
 title: Camel
-species_of_interest: WF2 AMR
+species_of_interest: WF2 Sciensano
 species_subcategory: Escherichia coli
 doi: 10.1099/mgen.0.000531
 galaxy:

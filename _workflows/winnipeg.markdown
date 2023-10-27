@@ -1,6 +1,6 @@
 ---
 title: Winnipeg
-species_of_interest: WF4 AMR
+species_of_interest: WF4 staramr
 species_subcategory: Salmonella enterica
 doi: 10.3390/microorganisms10020292
 galaxy: https://usegalaxy.eu/u/dennisd/w/103390microorganisms10020292

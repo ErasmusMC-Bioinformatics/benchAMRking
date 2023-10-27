@@ -1,6 +1,6 @@
 ---
 title: Catherine
-species_of_interest: WF3 AMR
+species_of_interest: WF3 CFIA
 species_subcategory: Salmonella species
 doi: 10.3389/fmicb.2020.00549
 galaxy: https://usegalaxy.eu/u/dennisd/w/amr-detection-cfia
