@@ -23,16 +23,13 @@
               {% if workflow.doi %}
                 <small>Doi: <a class="card-link mt-auto" href="https://doi.org/{{ workflow.doi }}">{{ workflow.doi }}</a></small>
               {% endif %}
-              <!-- <h5 class="card-subtitle text-muted">{{ workflow.title }}</h5> -->
               <p class="card-text mt-3">
                 {{ workflow.description }}
               </p>
               <small class="mt-auto text-center">
-                <!-- <a href="{{ workflow.dataset }}" class="w-100 btn btn-sm mt-auto mb-2 {% if workflow.dataset %}btn-outline-success{% else %}btn-secondary disabled{% endif %}">Get dataset</a> -->
                 {% if workflow.workflowhub %}
-                <a href="{{ workflow.workflowhub}}" class="w-100 btn btn-sm mt-auto mb-2 {% if workflow.galaxy %}btn-outline-success{% else %}btn-secondary disabled{% endif %}">View on WorkflowHub</a>
+                <a href="{{ workflow.workflowhub}}" class="w-100 btn btn-sm mt-auto mb-2 {% if workflow.workflowhub %}btn-outline-success{% else %}btn-secondary disabled{% endif %}">View on WorkflowHub</a>
                 {% endif %}
-                <!-- <a href="{{ workflow.galaxy }}" class="w-100 btn btn-sm mt-auto mb-2 {% if workflow.galaxy %}btn-outline-success{% else %}btn-secondary disabled{% endif %}">Run on galaxy</a> -->
                 <button type="button" class="w-100 btn btn-sm mt-auto mb-2 btn-outline-success" data-bs-toggle="modal" data-bs-target="#detailModal{{ workflow.title }}">More details</button>
               </small>
             </div>
