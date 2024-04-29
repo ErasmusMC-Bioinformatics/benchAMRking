@@ -2,8 +2,9 @@
 BenchAMRking is a platform where users can access and explore a range of best-practice tools, workflows and data for the prediction of AMR genes from WGS data. The workflows have been implemented in Galaxy to facilitate easy access and use of AMR gene prediction bioinformatics tools for researchers. BenchAMRking workflows are free with supporting self-learning training material.
 
 # Run workflow on Galaxy.
+First, create an account on [EU galaxy](https://usegalaxy.eu/login/start?redirect=None) and log in.
 
-The workflows are available on [WorkflowHub](https://workflowhub.eu). The main page contains links to the WorkflowHub repository for each workflow:
+The workflows are available on [WorkflowHub](https://workflowhub.eu). The main page contains links to the WorkflowHub repository for each workflow:  
 ![step 1](assets/readme/step1.png)  
 Navigate to "View on WorkflowHub" toe view the workflow repository.
 
@@ -17,6 +18,12 @@ Upload the reads to the galaxy instance.
 
 Select the input data and run the workflow.  
 ![step4](assets/readme/step4.png)
+
+
+
+
+---
+
 
 
 # Extra workflow info
