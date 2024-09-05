@@ -51,5 +51,4 @@ Assemblies: [STEC isolate assemblies](https://workflowhub.eu/workflows/407/git/1
 ## WF4: Staramr
 [doi.org/10.1038/s41467-022-35713-4](https://doi.org/10.1038/s41467-022-35713-4)  
 
-Tool url: <https://bioinf-galactus.erasmusmc.nl/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/abritamr/abritamr/1.0.14+galaxy0>  
-Dataset: <https://bioinf-galactus.erasmusmc.nl/libraries/folders/F38371f1a2a79cb4e/page/1>  
+Tool url: <https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/iuc/abritamr/abritamr/1.0.14+galaxy1>__
